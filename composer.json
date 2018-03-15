@@ -1,0 +1,11 @@
+{
+	"autoload": {
+		"psr-4": {
+			"components\\":"components/",
+			"components\\widgets\\":"components/widgets/",
+			"components\\helpers\\":"components/helpers/",
+			"components\\models\\":"components/models/",
+			"components\\traits\\":"components/traits/"
+		}
+	}
+}

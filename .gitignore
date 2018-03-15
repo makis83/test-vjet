@@ -1,0 +1,8 @@
+# composer vendor dir
+/vendor
+
+# composer executable
+composer.phar
+
+# phpstorm project files
+/.idea

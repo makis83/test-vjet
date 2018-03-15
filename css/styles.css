@@ -1,0 +1,92 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	line-height: 60px; /* Vertically center the text there */
+	background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+	padding: 60px 15px 0;
+}
+
+.footer > .container {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+code {
+	font-size: 80%;
+}
+
+/* Carousel */
+.carousel-item img {width: 100%;}
+.carousel-caption {top: 10%;}
+.carousel-caption .carousel-intro {position: absolute; bottom: 0; width: 100%;}
+.carousel-title a {color: #fff; text-decoration: none;}
+.carousel-intro > span {margin-bottom: 1rem; display: inline-block;}
+.carousel-intro > span > span {margin-right: 30px;}
+.carousel-intro > span > span:last-child {margin-right: 0;}
+.carousel-intro > span > span > i {vertical-align: -2px;}
+
+#publications-top {border-radius: .3rem; overflow: hidden;}
+
+@media (max-width: 576px) {
+	.carousel-caption {top: 0;}
+	.carousel-title {font-size: .9rem;}
+	.carousel-intro h5 {display: none;}
+	.carousel-intro p {display: none;}
+	.comment .comment-avatar {display: none;}
+}
+
+@media (min-width: 576px) {
+	.carousel-caption {top: 0;}
+	.carousel-title {font-size: 1.2rem;}
+	.carousel-intro h5 {display: none;}
+}
+
+@media (min-width: 768px) {
+	.carousel-caption {top: 0;}
+	.carousel-title {font-size: 1.4rem;}
+	.carousel-intro h5 {display: none;}
+}
+
+@media (min-width: 992px) {
+	.carousel-caption {top: 5%;}
+	.carousel-title {font-size: 1.4rem;}
+	.carousel-intro h5 {display: none;}
+}
+
+@media (min-width: 1200px) {
+	.carousel-caption {top: 10%;}
+	.carousel-title {font-size: 2.3rem;}
+	.carousel-intro h5 {display: block; font-size: 1.25rem;}
+}
+
+/* WYSIWYG editor */
+.trumbowyg-box, .trumbowyg-editor {background: #fff; margin-bottom: 0 !important;}
+.trumbowyg-box {border-radius: .25rem; overflow: hidden;}
+
+/* Publications */
+.list-group .list-group-item div small {white-space: nowrap;}
+.list-group .list-group-item > small > span {margin-right: 30px;}
+.list-group .list-group-item > small > span:last-child {margin-right: 0;}
+
+.nowrap {white-space: nowrap;}
